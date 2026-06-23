@@ -21,9 +21,6 @@ app = FastAPI(
 
 
 
-
-
-
 # 创建路由
 @app.get("/health")
 def health_check():
